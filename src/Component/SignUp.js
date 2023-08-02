@@ -1,10 +1,4 @@
 import { useState } from "react";
-import "./App.css";
-// import { io } from "socket.io-client";
-// const URL = "http://localhost:5000";
-// const socket = io(URL, {
-//   withCredentials: false,
-// });
 
 function SignUp() {
   const [name, SetName] = useState();
